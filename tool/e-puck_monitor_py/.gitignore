@@ -1,0 +1,29 @@
+# PyInstaller build artifacts
+dist/
+build/
+*.spec
+
+# PyInstaller cache
+.pyinstaller_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Runtime data (created by the app)
+epuck_data/

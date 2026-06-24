@@ -1,0 +1,32 @@
+# ── Python / PyInstaller ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.spec
+dist/
+build/
+.pyinstaller_cache/
+
+# ── Runtime data ──────────────────────────────────────────────────
+epuck_data/
+
+# ── IDE / Editor ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ── MPLAB build artifacts (keep .hex as deliverables) ────────────
+*.o
+*.obj
+*.cof
+*.elf
+*.map
+*.lst
+*.err
